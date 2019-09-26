@@ -5,13 +5,33 @@
     <title>Title</title>
 </head>
 <body>
-
+    <h1>
+        测试websocket
+    </h1>
 </body>
 
 <script>
     var ws = new WebSocket("ws://127.0.0.1:9001");
 
-    ws.
+    ws.readyState;
+
+    ws.onopen = function () {
+        console.log('it is connent .....');
+        ws.send('Hello Server!');
+    }
+
+    ws.onmessage = function (event) {
+        console.log(event.data);
+    }
+
+    ws.onclose = function () {
+       console.log('connect is colsing');
+    }
+
+
+
+
+
 
 </script>
 </html>
