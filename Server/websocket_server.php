@@ -5,6 +5,11 @@
  * Date: 2019/9/25
  * Time: 下午11:04
  */
+include "../config/env.php";
+
+var_dump($env);
+
+return;
 
 class ws {
 
@@ -46,5 +51,9 @@ class ws {
 
 
 }
+
+$envType = getenv('ENV_TYPE');
+
+echo $envType;
 
 $ws = new ws();
