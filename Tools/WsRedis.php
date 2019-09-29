@@ -13,7 +13,7 @@ class WsRedis {
     private function __construct()
     {
         /* 将用户的ID插入到redis的set中 */
-        $redis = new Redis();
+        $redis = new \Redis();
         $redis->connect('127.0.0.1',6379,3600);
         self::$_instance = $redis;
     }
