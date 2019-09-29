@@ -2,38 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>聊天室</title>
 </head>
 <body>
     <h1>
         测试websocket
     </h1>
+
+    <input type="text"  id="myMsg">
+    <button onclick="sendMsg()">提交</button>
+
 </body>
 
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script>
-    // var ws = new WebSocket("ws://127.0.0.1:9001");
 
-    var ws = new WebSocket("ws://122.152.219.192:9001"); // 腾讯云服务器
+    var ws;
 
-    ws.readyState;
+    (function () {
+        ws = new WebSocket("ws://127.0.0.1:9001");
 
-    ws.onopen = function () {
-        console.log('it is connent .....');
-        ws.send('Hello Server!');
+        // var ws = new WebSocket("ws://122.152.219.192:9001"); // 腾讯云服务器
+
+        ws.onopen = function () {
+            console.log('it is connect .....');
+        }
+
+
+
+        ws.onmessage = function (event) {
+            console.log(event.data);
+        }
+
+        ws.onclose = function () {
+            console.log('connect is colsing');
+        }
+    })();
+
+
+
+    function sendMsg () {
+        var msg = $('#myMsg').val();
+        ws.send('sendMsg:'+msg);
     }
-
-    ws.onmessage = function (event) {
-        console.log(event.data);
-    }
-
-    ws.onclose = function () {
-       console.log('connect is colsing');
-    }
-
-
-
-
-
 
 </script>
 </html>

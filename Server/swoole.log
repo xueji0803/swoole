@@ -1,0 +1,365 @@
+[2019-09-29 09:41:48 *12246.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Non-static method Redis::sAdd() cannot be called statically in /usr/local/var/www/Swoole/Server/http_server.php:41
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 41
+[2019-09-29 09:41:48 *12245.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Non-static method Redis::sAdd() cannot be called statically in /usr/local/var/www/Swoole/Server/http_server.php:41
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 41
+[2019-09-29 09:41:48 $12238.0]	WARNING	swManager_check_exit_status: worker#7[pid=12246] abnormal exit, status=255, signal=0
+[2019-09-29 09:41:48 $12238.0]	WARNING	swManager_check_exit_status: worker#6[pid=12245] abnormal exit, status=255, signal=0
+[2019-09-29 09:43:32 *12285.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:43:32 *12286.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:43:32 $12278.0]	WARNING	swManager_check_exit_status: worker#7[pid=12286] abnormal exit, status=255, signal=0
+[2019-09-29 09:43:32 $12278.0]	WARNING	swManager_check_exit_status: worker#6[pid=12285] abnormal exit, status=255, signal=0
+[2019-09-29 09:44:40 *12318.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:44:40 *12317.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:44:40 $12310.0]	WARNING	swManager_check_exit_status: worker#7[pid=12318] abnormal exit, status=255, signal=0
+[2019-09-29 09:44:40 $12310.0]	WARNING	swManager_check_exit_status: worker#6[pid=12317] abnormal exit, status=255, signal=0
+[2019-09-29 09:45:31 *12336.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:45:31 *12337.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:45:31 $12329.0]	WARNING	swManager_check_exit_status: worker#7[pid=12337] abnormal exit, status=255, signal=0
+[2019-09-29 09:45:31 $12329.0]	WARNING	swManager_check_exit_status: worker#6[pid=12336] abnormal exit, status=255, signal=0
+[2019-09-29 09:46:14 *12353.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:46:14 *12354.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(42): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 09:46:14 $12346.0]	WARNING	swManager_check_exit_status: worker#7[pid=12354] abnormal exit, status=255, signal=0
+[2019-09-29 09:46:14 $12346.0]	WARNING	swManager_check_exit_status: worker#6[pid=12353] abnormal exit, status=255, signal=0
+[2019-09-29 10:20:29 *12636.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 10:20:29 *12635.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:42
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 42
+[2019-09-29 10:20:29 $12628.0]	WARNING	swManager_check_exit_status: worker#6[pid=12635] abnormal exit, status=255, signal=0
+[2019-09-29 10:20:29 $12628.0]	WARNING	swManager_check_exit_status: worker#7[pid=12636] abnormal exit, status=255, signal=0
+[2019-09-29 10:40:41 *12796.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:51
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 51
+[2019-09-29 10:40:41 *12795.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:51
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 51
+[2019-09-29 10:40:41 $12788.0]	WARNING	swManager_check_exit_status: worker#7[pid=12796] abnormal exit, status=255, signal=0
+[2019-09-29 10:40:41 $12788.0]	WARNING	swManager_check_exit_status: worker#6[pid=12795] abnormal exit, status=255, signal=0
+[2019-09-29 10:41:16 *12814.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:47
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 47
+[2019-09-29 10:41:16 *12813.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:47
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 47
+[2019-09-29 10:41:16 $12806.0]	WARNING	swManager_check_exit_status: worker#6[pid=12813] abnormal exit, status=255, signal=0
+[2019-09-29 10:41:16 $12806.0]	WARNING	swManager_check_exit_status: worker#7[pid=12814] abnormal exit, status=255, signal=0
+[2019-09-29 10:41:38 *12830.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:47
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 47
+[2019-09-29 10:41:38 *12831.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\Redis' not found in /usr/local/var/www/Swoole/Server/http_server.php:47
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 47
+[2019-09-29 10:41:38 $12823.0]	WARNING	swManager_check_exit_status: worker#7[pid=12831] abnormal exit, status=255, signal=0
+[2019-09-29 10:41:38 $12823.0]	WARNING	swManager_check_exit_status: worker#6[pid=12830] abnormal exit, status=255, signal=0
+[2019-09-29 10:42:09 *12847.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:42:09 *12848.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:42:09 $12840.0]	WARNING	swManager_check_exit_status: worker#7[pid=12848] abnormal exit, status=255, signal=0
+[2019-09-29 10:42:09 $12840.0]	WARNING	swManager_check_exit_status: worker#6[pid=12847] abnormal exit, status=255, signal=0
+[2019-09-29 10:45:20 *12898.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:45:20 *12899.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:45:20 $12891.0]	WARNING	swManager_check_exit_status: worker#6[pid=12898] abnormal exit, status=255, signal=0
+[2019-09-29 10:45:20 $12891.0]	WARNING	swManager_check_exit_status: worker#7[pid=12899] abnormal exit, status=255, signal=0
+[2019-09-29 10:46:03 *12918.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:46:03 *12917.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes) in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:46:03 $12910.0]	WARNING	swManager_check_exit_status: worker#7[pid=12918] abnormal exit, status=255, signal=0
+[2019-09-29 10:46:03 $12910.0]	WARNING	swManager_check_exit_status: worker#6[pid=12917] abnormal exit, status=255, signal=0
+[2019-09-29 10:53:17 *12985.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:53:17 *12986.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:53:17 $12978.0]	WARNING	swManager_check_exit_status: worker#7[pid=12986] abnormal exit, status=255, signal=0
+[2019-09-29 10:53:17 $12978.0]	WARNING	swManager_check_exit_status: worker#6[pid=12985] abnormal exit, status=255, signal=0
+[2019-09-29 10:53:34 *13002.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:37
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\Redis->Add('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:53:34 *13001.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:37
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\Redis->Add('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 37
+[2019-09-29 10:53:34 $12994.0]	WARNING	swManager_check_exit_status: worker#7[pid=13002] abnormal exit, status=255, signal=0
+[2019-09-29 10:53:34 $12994.0]	WARNING	swManager_check_exit_status: worker#6[pid=13001] abnormal exit, status=255, signal=0
+[2019-09-29 10:56:05 *13032.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:56:05 *13031.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:56:05 $13024.0]	WARNING	swManager_check_exit_status: worker#6[pid=13031] abnormal exit, status=255, signal=0
+[2019-09-29 10:56:05 $13024.0]	WARNING	swManager_check_exit_status: worker#7[pid=13032] abnormal exit, status=255, signal=0
+[2019-09-29 10:57:09 *13051.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:57:09 *13052.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 10:57:09 $13044.0]	WARNING	swManager_check_exit_status: worker#7[pid=13052] abnormal exit, status=255, signal=0
+[2019-09-29 10:57:09 $13044.0]	WARNING	swManager_check_exit_status: worker#6[pid=13051] abnormal exit, status=255, signal=0
+[2019-09-29 11:01:54 *13123.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:01:54 *13124.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: Redis server went away in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:01:54 $13116.0]	WARNING	swManager_check_exit_status: worker#7[pid=13124] abnormal exit, status=255, signal=0
+[2019-09-29 11:01:54 $13116.0]	WARNING	swManager_check_exit_status: worker#6[pid=13123] abnormal exit, status=255, signal=0
+[2019-09-29 11:02:27 *13142.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:02:27 *13141.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\Redis::sAdd() in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:02:27 $13134.0]	WARNING	swManager_check_exit_status: worker#7[pid=13142] abnormal exit, status=255, signal=0
+[2019-09-29 11:02:27 $13134.0]	WARNING	swManager_check_exit_status: worker#6[pid=13141] abnormal exit, status=255, signal=0
+[2019-09-29 11:14:57 *13325.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\WsRedis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:36
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\WsRedis->Add('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 36
+[2019-09-29 11:14:57 *13324.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\WsRedis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:36
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\WsRedis->Add('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 36
+[2019-09-29 11:14:57 $13317.0]	WARNING	swManager_check_exit_status: worker#6[pid=13324] abnormal exit, status=255, signal=0
+[2019-09-29 11:14:57 $13317.0]	WARNING	swManager_check_exit_status: worker#7[pid=13325] abnormal exit, status=255, signal=0
+[2019-09-29 11:15:44 *13343.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\WsRedis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:36
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\WsRedis->Add('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 36
+[2019-09-29 11:15:44 *13344.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Call to undefined method Tools\WsRedis::sAdd() in /usr/local/var/www/Swoole/Tools/Redis.php:36
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Tools\WsRedis->Add('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Tools/Redis.php on line 36
+[2019-09-29 11:15:44 $13336.0]	WARNING	swManager_check_exit_status: worker#7[pid=13344] abnormal exit, status=255, signal=0
+[2019-09-29 11:15:44 $13336.0]	WARNING	swManager_check_exit_status: worker#6[pid=13343] abnormal exit, status=255, signal=0
+[2019-09-29 11:24:40 *13526.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:49
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 49
+[2019-09-29 11:24:40 *13527.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:49
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 49
+[2019-09-29 11:24:40 $13519.0]	WARNING	swManager_check_exit_status: worker#7[pid=13527] abnormal exit, status=255, signal=0
+[2019-09-29 11:24:40 $13519.0]	WARNING	swManager_check_exit_status: worker#6[pid=13526] abnormal exit, status=255, signal=0
+[2019-09-29 11:38:36 *13637.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:46
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 46
+[2019-09-29 11:38:36 *13638.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:46
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 46
+[2019-09-29 11:38:36 $13630.0]	WARNING	swManager_check_exit_status: worker#6[pid=13637] abnormal exit, status=255, signal=0
+[2019-09-29 11:38:36 $13630.0]	WARNING	swManager_check_exit_status: worker#7[pid=13638] abnormal exit, status=255, signal=0
+[2019-09-29 11:43:34 *13725.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:43:34 *13724.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:43:34 $13717.0]	WARNING	swManager_check_exit_status: worker#7[pid=13725] abnormal exit, status=255, signal=0
+[2019-09-29 11:43:34 $13717.0]	WARNING	swManager_check_exit_status: worker#6[pid=13724] abnormal exit, status=255, signal=0
+[2019-09-29 11:44:35 *13747.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:44:35 *13748.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:44:35 $13740.0]	WARNING	swManager_check_exit_status: worker#7[pid=13748] abnormal exit, status=255, signal=0
+[2019-09-29 11:44:35 $13740.0]	WARNING	swManager_check_exit_status: worker#6[pid=13747] abnormal exit, status=255, signal=0
+[2019-09-29 11:45:22 *13766.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:45:22 *13767.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 11:45:22 $13759.0]	WARNING	swManager_check_exit_status: worker#7[pid=13767] abnormal exit, status=255, signal=0
+[2019-09-29 11:45:22 $13759.0]	WARNING	swManager_check_exit_status: worker#6[pid=13766] abnormal exit, status=255, signal=0
+[2019-09-29 11:48:29 *13800.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:48:29 *13799.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:48:29 $13792.0]	WARNING	swManager_check_exit_status: worker#7[pid=13800] abnormal exit, status=255, signal=0
+[2019-09-29 11:48:29 $13792.0]	WARNING	swManager_check_exit_status: worker#6[pid=13799] abnormal exit, status=255, signal=0
+[2019-09-29 11:49:04 *13819.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:49:04 *13818.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:49:04 $13811.0]	WARNING	swManager_check_exit_status: worker#7[pid=13819] abnormal exit, status=255, signal=0
+[2019-09-29 11:49:04 $13811.0]	WARNING	swManager_check_exit_status: worker#6[pid=13818] abnormal exit, status=255, signal=0
+[2019-09-29 11:49:23 *13834.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:49:23 *13835.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:55
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 55
+[2019-09-29 11:49:23 $13827.0]	WARNING	swManager_check_exit_status: worker#7[pid=13835] abnormal exit, status=255, signal=0
+[2019-09-29 11:49:23 $13827.0]	WARNING	swManager_check_exit_status: worker#6[pid=13834] abnormal exit, status=255, signal=0
+[2019-09-29 11:50:06 *13854.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:50:06 *13855.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:50:06 $13847.0]	WARNING	swManager_check_exit_status: worker#7[pid=13855] abnormal exit, status=255, signal=0
+[2019-09-29 11:50:06 $13847.0]	WARNING	swManager_check_exit_status: worker#6[pid=13854] abnormal exit, status=255, signal=0
+[2019-09-29 11:50:28 *13871.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:50:28 *13870.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:50:28 $13863.0]	WARNING	swManager_check_exit_status: worker#6[pid=13870] abnormal exit, status=255, signal=0
+[2019-09-29 11:50:28 $13863.0]	WARNING	swManager_check_exit_status: worker#7[pid=13871] abnormal exit, status=255, signal=0
+[2019-09-29 11:51:03 *13888.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:51:03 *13887.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 11:51:03 $13880.0]	WARNING	swManager_check_exit_status: worker#6[pid=13887] abnormal exit, status=255, signal=0
+[2019-09-29 11:51:03 $13880.0]	WARNING	swManager_check_exit_status: worker#7[pid=13888] abnormal exit, status=255, signal=0
+[2019-09-29 11:53:21 *13928.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:53
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 53
+[2019-09-29 11:53:21 *13927.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:53
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 53
+[2019-09-29 11:53:21 $13920.0]	WARNING	swManager_check_exit_status: worker#7[pid=13928] abnormal exit, status=255, signal=0
+[2019-09-29 11:53:21 $13920.0]	WARNING	swManager_check_exit_status: worker#6[pid=13927] abnormal exit, status=255, signal=0
+[2019-09-29 11:53:42 *13949.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:53
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 53
+[2019-09-29 11:53:42 *13948.6]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught Error: Class 'Tools\WsRedis' not found in /usr/local/var/www/Swoole/Server/http_server.php:53
+Stack trace:
+#0 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 53
+[2019-09-29 11:53:42 $13941.0]	WARNING	swManager_check_exit_status: worker#7[pid=13949] abnormal exit, status=255, signal=0
+[2019-09-29 11:53:42 $13941.0]	WARNING	swManager_check_exit_status: worker#6[pid=13948] abnormal exit, status=255, signal=0
+[2019-09-29 14:08:08 *14746.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: read error on connection in /usr/local/var/www/Swoole/Server/http_server.php:50
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(50): Redis->sAdd('fd', 3)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 50
+[2019-09-29 14:08:08 $14744.0]	WARNING	swManager_check_exit_status: worker#1[pid=14746] abnormal exit, status=255, signal=0
+[2019-09-29 14:21:03 *14940.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: read error on connection in /usr/local/var/www/Swoole/Server/http_server.php:51
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(51): Redis->sAdd('fd', 2)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 51
+[2019-09-29 14:21:03 $14939.0]	WARNING	swManager_check_exit_status: worker#0[pid=14940] abnormal exit, status=255, signal=0
+[2019-09-29 14:26:54 *15060.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: read error on connection in /usr/local/var/www/Swoole/Server/http_server.php:51
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(51): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 51
+[2019-09-29 14:26:54 $15052.0]	WARNING	swManager_check_exit_status: worker#7[pid=15060] abnormal exit, status=255, signal=0
+[2019-09-29 14:28:30 *15091.7]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: read error on connection in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(52): Redis->sAdd('fd', 1)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 14:28:30 $15083.0]	WARNING	swManager_check_exit_status: worker#7[pid=15091] abnormal exit, status=255, signal=0
+[2019-09-29 14:29:25 *15116.7]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 207 byte failed, because connection[fd=1] is closed
+[2019-09-29 14:29:25 *15110.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught RedisException: read error on connection in /usr/local/var/www/Swoole/Server/http_server.php:52
+Stack trace:
+#0 /usr/local/var/www/Swoole/Server/http_server.php(52): Redis->sAdd('fd', 3)
+#1 {main}
+  thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
+[2019-09-29 14:29:25 $15108.0]	WARNING	swManager_check_exit_status: worker#1[pid=15110] abnormal exit, status=255, signal=0
