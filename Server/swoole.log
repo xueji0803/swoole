@@ -363,3 +363,4 @@ Stack trace:
 #1 {main}
   thrown in /usr/local/var/www/Swoole/Server/http_server.php on line 52
 [2019-09-29 14:29:25 $15108.0]	WARNING	swManager_check_exit_status: worker#1[pid=15110] abnormal exit, status=255, signal=0
+[2019-09-29 17:39:32 *16933.7]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 207 byte failed, because connection[fd=1] is closed
