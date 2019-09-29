@@ -15,7 +15,7 @@ class ws {
 
     public $host = '0.0.0.0';
 
-    public $port = 9001;
+    public $port = 8001;
 
     public $redis = null;
     /**
