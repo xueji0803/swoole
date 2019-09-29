@@ -28,7 +28,7 @@ class ws {
 
         $this->ws->set(
             [
-               'log_file'  => 'swoole.log'
+               'log_file'  => '../Html/swoole.log'
             ]
         );
 

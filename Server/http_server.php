@@ -36,7 +36,7 @@ class hp {
         $this->hp->set([
             'document_root'         => __DIR__.'/../Html',
             'enable_static_handler' => true,
-            'log_file'              => 'swoole.log'
+            'log_file'              => '../Html/swoole.log'
         ]);
 
         $this->redis = WsRedis::getRedis();

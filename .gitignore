@@ -8,6 +8,9 @@ Homestead.yaml
 
 config/env.php
 
+Html/swoole.log
+Server/swoole.log
+
 _ide_helper.php
 .phpstorm.meta.php
 .DS_Store

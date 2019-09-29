@@ -28,8 +28,6 @@
             console.log('it is connect .....');
         }
 
-
-
         ws.onmessage = function (event) {
             console.log(event.data);
         }
@@ -40,8 +38,6 @@
             var ws = new WebSocket("ws://122.152.219.192:8001"); // 腾讯云服务器
         }
     })();
-
-
 
     function sendMsg () {
         var msg = $('#myMsg').val();
