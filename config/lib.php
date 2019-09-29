@@ -10,5 +10,5 @@ ini_set('default_socket_timeout', -1);
 
 spl_autoload_register(function ($class_name) {
     $class_name = str_replace('\\','/',$class_name);
-    require_once(__DIR__."/../".$class_name.'.php');
+    include_once(__DIR__."/../".$class_name.'.php');
 });
