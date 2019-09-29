@@ -46,6 +46,8 @@ class ws {
 
     public function onopen($server,$request){
         echo "server: handshake success with fd{$request->fd}\n";
+        /* 将用户的ID插入到redis的set中 */
+        $this->redis->sAdd('fd',$request->fd);
     }
 
     /* 转发用户消息 */
@@ -65,7 +67,6 @@ class ws {
     public function onclose($ser, $fd) {
         /* 将当前用户的线程从redis中去除 */
         $this->redis->sRem('fd',$fd);
-        echo "this is close";
     }
 
 
