@@ -34,7 +34,7 @@ class hp {
         $this->hp->on('close',[$this,'onClose']);
 
         $this->hp->set([
-            'document_root'         => '/usr/local/var/www/Swoole/Html',
+            'document_root'         => __DIR__.'/../Html',
             'enable_static_handler' => true,
             'log_file'              => 'swoole.log'
         ]);
