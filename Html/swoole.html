@@ -17,12 +17,15 @@
 <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
 <script>
 
+
     var ws;
 
-    (function () {
-        // ws = new WebSocket("ws://127.0.0.1:9001");
+    /*JS获取当前的页面的IP*/
+    var domain = window.location.hostname;
+    var port   = '9001';
 
-        ws = new WebSocket("ws://122.152.219.192:8001"); // 腾讯云服务器
+    (function () {
+        ws = new WebSocket('ws://'+domain+':'+port); // 腾讯云服务器
 
         ws.onopen = function () {
             console.log('it is connect .....');
@@ -35,7 +38,7 @@
         ws.onclose = function () {
             console.log('connect is colsing');
             // ws = new WebSocket("ws://127.0.0.1:9001");
-            var ws = new WebSocket("ws://122.152.219.192:8001"); // 腾讯云服务器
+            var ws = new WebSocket('ws://'+domain+':'+port); // 腾讯云服务器
         }
     })();
 
